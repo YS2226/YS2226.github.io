@@ -7,3 +7,9 @@ h1 {
 p {
   color: red;
 }
+.move-down70 {
+    margin-top: 70px;
+}
+.center_text {
+    text-align: center;
+}
