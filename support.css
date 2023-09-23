@@ -1,5 +1,7 @@
 body {
   background-color: powderblue;
+   height: 100vh;
+    position: relative;
 }
 h1 {
   color: blue;
@@ -19,13 +21,13 @@ p {
 }
 
 .white-content {
-    background-color: white; /* White background color */
-    padding: 20px; /* Add padding to create separation */
+    background-color: white; /* set white background  */
+    padding: 20px; /*create separation */
     position: absolute; /* Position absolutely inside the container */
     top: 20px; /* Adjust top position to control how much of the blue background is visible */
-    left: 20px; /* Adjust left position to control the horizontal positioning */
-    right: 20px; /* Adjust right position to control the horizontal positioning */
-    bottom: 20px; /* Adjust bottom position to control the vertical positioning */
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
 }
 .AliceBlue {
     color: AliceBlue
