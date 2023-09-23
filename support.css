@@ -17,3 +17,13 @@ p {
 .align_right {
     text-align: right
 }
+
+.white-content {
+    background-color: white; /* White background color */
+    padding: 20px; /* Add padding to create separation */
+    position: absolute; /* Position absolutely inside the container */
+    top: 20px; /* Adjust top position to control how much of the blue background is visible */
+    left: 20px; /* Adjust left position to control the horizontal positioning */
+    right: 20px; /* Adjust right position to control the horizontal positioning */
+    bottom: 20px; /* Adjust bottom position to control the vertical positioning */
+}
