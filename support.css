@@ -12,7 +12,7 @@ p {
   color: red;
 }
 .move-down12 {
-    margin-top: 12px;
+    margin-top: 30px;
 }
 .center_text {
     text-align: center;
@@ -26,7 +26,8 @@ p {
     background-color: white; /* set white background  */
     padding: 20px; /*create separation */
     position: relative; /* Position absolutely inside the container */
-     /* Adjust the top position to provide space for the header */
+    height: 100vh;
+
     left: 20px;
     right: 20px;
 
