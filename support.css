@@ -24,7 +24,7 @@ p {
     background-color: white; /* set white background  */
     padding: 20px; /*create separation */
     position: absolute; /* Position absolutely inside the container */
-    top: 20px; /* Adjust top position to control how much of the blue background is visible */
+    top: 70px; /* Adjust the top position to provide space for the header */
     left: 20px;
     right: 20px;
     bottom: 20px;
