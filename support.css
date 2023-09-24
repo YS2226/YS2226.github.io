@@ -33,7 +33,7 @@ p {
     z-index: -3;
 }
 .AliceBlue {
-    background-color: AliceBlue
+    background-color: AliceBlue;
 }
 .center {
     text-align: center
@@ -43,3 +43,6 @@ p {
     margin: 80px 0 0 0; /* Adjust the top margin value to create space */
             padding: 0;
 }
+
+.AliceBluec {
+    color: AliceBlue;
