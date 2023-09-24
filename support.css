@@ -19,7 +19,7 @@ p {
 
 
 .align_right {
-    right: 10px
+    right: 60px
 }
 
 .white-content {
@@ -40,6 +40,9 @@ p {
 }
 
 .bodymovedown{
-margin: 80px 0 0 0; /* Adjust the top margin value to create space */
+    margin: 80px 0 0 0; /* Adjust the top margin value to create space */
             padding: 0;
+}
+.left {
+    left: 40px
 }
