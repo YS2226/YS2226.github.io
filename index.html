@@ -31,15 +31,16 @@
         margin-top: 0;
     }
     .white-content {
-        background-color: white; /* set white background  */
-        padding: 20px; /*create separation */
-        position: absolute; /* Position absolutely inside the container */
-         /* Adjust the top position to provide space for the header */
-        left: 20px;
-        right: 20px;
-        height: 1000px;
-        z-index: -1;
-    }
+    background-color: white;
+    padding: 20px;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: 0; /* This ensures it starts from the top of the viewport */
+    bottom: 0; /* This ensures it extends to the bottom of the viewport */
+    z-index: -1;
+}
+
     </style>
 </head>
 
