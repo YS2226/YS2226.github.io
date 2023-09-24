@@ -4,7 +4,7 @@ body {
 
     position: relative;
     z-index: -2;
-   text-align: center
+
 }
 h1 {
   color: blue;
@@ -32,4 +32,7 @@ p {
 }
 .AliceBlue {
     color: AliceBlue
+}
+.center {
+    text-align: center
 }
