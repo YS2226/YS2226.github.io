@@ -1,7 +1,9 @@
 body {
   background-color: powderblue;
    height: 100vh;
+
     position: relative;
+    z-index: -2;
 }
 h1 {
   color: blue;
@@ -28,6 +30,7 @@ p {
     left: 20px;
     right: 20px;
     bottom: 20px;
+    z-index: -1;
 }
 .AliceBlue {
     color: AliceBlue
