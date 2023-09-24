@@ -25,10 +25,11 @@ p {
     background-color: white; /* set white background  */
 
     position: relative;
-    height: 100vh;
+    left: 20;
+    right: 20;
 
 
-    z-index: -1;
+    z-index: -3;
 }
 .AliceBlue {
     color: AliceBlue
