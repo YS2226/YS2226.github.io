@@ -25,11 +25,11 @@ p {
 .white-content {
     background-color: white; /* set white background  */
     padding: 20px; /*create separation */
-    position: absolute; /* Position absolutely inside the container */
-    top: 70px; /* Adjust the top position to provide space for the header */
+    position: relative; /* Position absolutely inside the container */
+     /* Adjust the top position to provide space for the header */
     left: 20px;
     right: 20px;
-    bottom: 20px;
+
     z-index: -1;
 }
 .AliceBlue {
