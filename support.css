@@ -4,6 +4,7 @@ body {
 
     position: relative;
     z-index: -2;
+   text-align: center
 }
 h1 {
   color: blue;
@@ -14,9 +15,7 @@ p {
 .move-down12 {
     margin-top: 30px;
 }
-.center_text {
-    text-align: center;
-}
+
 
 .align_right {
     text-align: right
@@ -24,12 +23,10 @@ p {
 
 .white-content {
     background-color: white; /* set white background  */
-    padding: 20px; /*create separation */
-    position: relative; /* Position absolutely inside the container */
+
+    position: relative;
     height: 100vh;
 
-    left: 20px;
-    right: 20px;
 
     z-index: -1;
 }
