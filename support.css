@@ -19,6 +19,7 @@ p {
 
 .align_right {
     text-align: right
+    right: 20 px;
 }
 
 .white-content {
