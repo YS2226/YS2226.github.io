@@ -23,7 +23,7 @@ p {
 }
 
 .white-content {
-    background-color: #000000; /* set white background  */
+    background-color: white; /* set white background  */
 
     position: relative;
     left: 20;
