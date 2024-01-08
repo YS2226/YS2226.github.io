@@ -18,7 +18,7 @@
         width: 99%;
         background-color: #abc2cd;
         color: #deeef4;
-        padding: 8px;
+        padding: 11px;
         height: 50px; /* add height */
     }
 
@@ -49,12 +49,16 @@
 <body class ="center">
 <div class ="left center" style="color: #7e9fad;">
     <h3>
-        last updated: 01/08/24
+        last updated:
 </h3>
 <div id="current_date">
 
     <script>
         document.getElementById("current_date").innerHTML = Date();
+        var month = currentTime.getMonth() + 1
+        var day = currentTime.getDate()
+        var year = currentTime.getFullYear()
+        document.write(month + "/" + day + "/" + year)
     </script>
 </div>
 </div>
