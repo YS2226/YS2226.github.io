@@ -26,16 +26,7 @@ p {
     text-align: right
 }
 
-.white-content {
-    background-color: white; /* set white background  */
 
-    position: relative;
-    left: 20;
-    right: 20;
-
-
-    z-index: -3;
-}
 .AliceBlue {
     background-color: AliceBlue;
 }
@@ -48,5 +39,3 @@ p {
             padding: 0;
 }
 
-.AliceBluec {
-    color: AliceBlue;
