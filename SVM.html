@@ -13,24 +13,31 @@
     Goal: automate credit card approval decisions
 </h3>
 <p>
-    Given:<br>
+    <strong>
+        Given:<br>
+    </strong>
     - customer information dataset which include information such as deposit, age, family member, etc..<br><br>
 
-    use:<br>
+    <strong>
+        method:<br>
+    </strong>
     - Classification model<br>
     - I decided to use support vector machine in this project<br>
 
 </p>
 <p>
-    Approach:<br>
+    <strong>
+        Approach:<br>
+    </strong>
     - Analyze dataset and examine how to format data.<br>
      For example, when I analyze deposit information, I normalized the dataset to make it into number between -1 and 1<br>
     normalized_deposit = (deposit - mean value)/ std<br>
     - Import SVM model from sklearn and put data into it<br>
     <img src="SVM_model.jpg" alt="import SVM model from sklearn"><br><br>
 
-
-    Review model:<br>
+    <strong>
+        Review model:<br>
+    </strong>
     - ROC curve<br>
     below is the visual representation of ROC curve
     <img src="SVM_ROC.jpg" alt="ROC curve"><br><br>
