@@ -50,21 +50,40 @@
 
 <div class="white-content">
 </div>
-<div class ="left center" style="color: #7e9fad;">
-    <h4>
-        last updated:
-</h4>
-<div id="current_date">
+<div class="left center" style="color: #7e9fad;">
+    <h4>Last Updated: <span id="lastUpdated"></span></h4>
+</div>
 
-    <script>
-        var currentTime = new Date()
-        var month = currentTime.getMonth() + 1
-        var day = currentTime.getDate()
-        var year = currentTime.getFullYear()
-        document.write(month + "/" + day + "/" + year)
-    </script>
-</div>
-</div>
+<script>
+    // Function to fetch last modified date from the server
+    function getLastModifiedDate() {
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                var lastModified = new Date(xhr.getResponseHeader("Last-Modified"));
+                displayLastModifiedDate(lastModified);
+            }
+        };
+        xhr.open("HEAD", window.location.href, true);
+        xhr.send();
+    }
+
+    // Function to display last modified date
+    function displayLastModifiedDate(lastModified) {
+        var month = lastModified.getUTCMonth() + 1;
+        var day = lastModified.getUTCDate();
+        var year = lastModified.getUTCFullYear();
+        var hours = lastModified.getUTCHours();
+        var minutes = lastModified.getUTCMinutes();
+        var seconds = lastModified.getUTCSeconds();
+
+        document.getElementById("lastUpdated").innerText = month + "/" + day + "/" + year + " " + hours + ":" + minutes + ":" + seconds;
+    }
+
+    // Fetch and display last modified date when the page loads
+    getLastModifiedDate();
+</script>
+
 
 <div>
         <h1 class ="move-down12 center">Welcome</h1>
