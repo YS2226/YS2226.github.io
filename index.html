@@ -73,11 +73,8 @@
         var month = lastModified.getUTCMonth() + 1;
         var day = lastModified.getUTCDate();
         var year = lastModified.getUTCFullYear();
-        var hours = lastModified.getUTCHours();
-        var minutes = lastModified.getUTCMinutes();
-        var seconds = lastModified.getUTCSeconds();
 
-        document.getElementById("lastUpdated").innerText = month + "/" + day + "/" + year + " " + hours + ":" + minutes + ":" + seconds;
+        document.getElementById("lastUpdated").innerText = month + "/" + day + "/" + year;
     }
 
     // Fetch and display last modified date when the page loads
