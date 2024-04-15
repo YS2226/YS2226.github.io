@@ -1,3 +1,3 @@
-# YS2226.github.io
-
-## aaa
+# My website
+##Purpose of this directory. 
+### I created this directory for my website which I hosted on Github Desktop. 
